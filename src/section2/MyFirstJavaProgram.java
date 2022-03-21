@@ -8,13 +8,12 @@ public class MyFirstJavaProgram {
 	public static void main(String[] args) {
 		
 		// START HERE
-	 Robot dale = new Robot();
-	 dale.setSpeed(10);
-	 dale.penDown();
-	 for (int i = 0; i < 4; i++) {
-		dale.move(200);
-		dale.turn(90);
-		dale.move(200);
+	 Robot austin = new Robot();
+	 austin.setSpeed(100);
+	 austin.penDown();
+	 for (int i = 0; i < 15; i++) {
+		austin.move(50);
+		austin.turn(15);
 	 }
 		
 	}
